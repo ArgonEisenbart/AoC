@@ -49,14 +49,9 @@ int main()
         bool finished;
         int startToAdd = 0;
         for (int scope = topLineNumbers.size(); scope > 0; scope--) {
-            
-            //std::cout << "scope: " << scope << std::endl;
 
             finished = true;
             for (int i = topLineNumbers.size() - scope; i < topLineNumbers.size(); i++) {
-
-                //std::cout << " checking 0, i: " << i << std::endl;
-
                 if (topLineNumbers[i] != 0) {
                     finished = false;
                     break;
@@ -65,18 +60,7 @@ int main()
 
             if (!finished) {
                 for (int i = topLineNumbers.size() - 1; i > topLineNumbers.size() - scope; i--) {
-
-                    //std::cout << "normal, i: " << i << std::endl;
-
                     topLineNumbers.at(i) = topLineNumbers[i] - topLineNumbers[i - 1];
-
-                    /*
-                    std::cout << "topLineNumbers inside: ";
-                    for (int i = 0; i < topLineNumbers.size(); i++) {
-                        std::cout << topLineNumbers[i] << " ";
-                    }
-                    std::cout << std::endl;
-                    */
                 }
             }
             else {
@@ -85,19 +69,9 @@ int main()
             }
         }
 
-        /*
-        std::cout << "topLineNumbers: ";
-        for (int i = 0; i < topLineNumbers.size(); i++) {
-            std::cout << topLineNumbers[i] << " ";
-        }
-        std::cout << std::endl;
-        std::cout << "startToAdd: " << startToAdd << std::endl;
-        */
-
         int lineSum = 0;
         for (int i = startToAdd; i >= 0; i--) {
             lineSum = topLineNumbers[i] - lineSum;
-            //std::cout << " linesum: " << lineSum << std::endl;
         }
         sum += lineSum;
         

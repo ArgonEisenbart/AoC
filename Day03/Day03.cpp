@@ -92,14 +92,6 @@ int main()
     }
 
     for (STAR star : doubleStars) {
-        
-        /*
-        std::cout << "Star Nr." << counter << " - x: " << star.starX << " - y: " << star.starY << " #numbers: " << star.amountOfNumbers << " - numbers-list: ";
-        for (int i : star.numbers) {
-            std::cout << i << ", ";
-        }
-        std::cout << std::endl;
-        */
 
         sum += star.numbers.at(0) * star.numbers.at(1);
 
@@ -132,8 +124,6 @@ int toInt(std::string s) {
 }
 
 bool checkForSymbols(std::vector<std::string> engine, int start, int end, int lineNum, int number) {
-
-    // std::cout << "number: " << number << " - stars: " << stars.size() << std::endl;
 
     /* DEFINE RELEVANT LINES */
     std::string lineAbove, lineBelow, line;

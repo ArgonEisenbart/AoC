@@ -144,13 +144,7 @@ int main()
 
     Rule rule;
     for (int k = 0; k < maps.size(); k++) {
-
-        //auto time_start = std::chrono::system_clock::now();
-
         int blocksLength = blocks.size();
-
-        //std::cout << blocks.size() << std::endl;
-
         for (int j = 0; j < blocksLength; j++) {
             auto& rules = maps.at(k).rules;
             int ruleIndex = binarySearch(rules, blocks.at(j).start);
@@ -160,34 +154,6 @@ int main()
                 ruleIndex++;
             }
         }
-
-        /*
-        std::vector<Rule> rules = maps.at(k).rules;
-        for (int i = 0; i < rules.size(); i++) {
-            rule = rules.at(i);
-
-            for (int j = 0; j < blocksLength; j++) {
-                applyRuleOnBlock(rule, j, &blocks, &blocksLength);
-            }
-        }
-        */
-
-        /*
-        int i = 0;
-        while (i < blocks.size()) {
-            if (blocks.at(i).start >= blocks.at(i).end) {
-                blocks[i] = blocks.back();
-                blocks.pop_back();
-            }
-            else {
-                i++;
-            }
-        }
-        */
-
-        //auto time_end = std::chrono::system_clock::now();
-        //auto totalTime = std::chrono::duration_cast<std::chrono::milliseconds>(time_end - time_start);
-        //std::cout << "Total time needed: " << totalTime.count() << " ms\n";
     }
 
     long long smallest = std::numeric_limits<long long>::max();

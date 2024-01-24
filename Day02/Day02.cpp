@@ -81,12 +81,6 @@ int main()
 
         sum += red * green * blue;
 
-        /*if (red <= MAX_RED && green <= MAX_GREEN && blue <= MAX_BLUE) {
-            sum += toInt(gameNr);
-        }*/
-
-        // std::cout << "Game Nr. " << gameNr << " : red: " << red << " - blue: " << blue << " - green: " << green << std::endl;
-
         red = 0;
         green = 0;
         blue = 0;

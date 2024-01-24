@@ -63,21 +63,6 @@ int main()
 
         winNumbersCount.push_back(amountOfWinningNumbers);
 
-        /*
-        if (amountOfWinningNumbers == 0) {
-            cardPoints = 0;
-        }
-        else {
-            cardPoints = 1;
-            amountOfWinningNumbers--;
-            while (amountOfWinningNumbers > 0) {
-                cardPoints *= 2;
-                amountOfWinningNumbers--;
-            }
-        }
-        sum += cardPoints;
-        */
-
         cardPoints = 0;
         amountOfWinningNumbers = 0;
         winningNumbers.clear();

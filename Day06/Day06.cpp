@@ -31,8 +31,6 @@ int main()
             moveTime = time[race] - i;
             ownRaceDistance = chargeSpeed * moveTime;
 
-            //std::cout << "raceDistance: " << ownRaceDistance << std::endl;
-
             if (ownRaceDistance > distance[race]) {
                 raceWins[race]++;
             }
