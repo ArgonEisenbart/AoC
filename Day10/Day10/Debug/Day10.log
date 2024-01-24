@@ -1,0 +1,17 @@
+﻿  Day10.cpp
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(41,27): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(53,23): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(55,27): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(115,23): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(116,27): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(159,35): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(233,35): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(412): warning C4715: "followPipe": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(432): warning C4715: "isVertical": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(452): warning C4715: "isHorizontal": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(472): warning C4715: "isCorner": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(490): warning C4715: "isLeft": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(508): warning C4715: "isRight": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(526): warning C4715: "isUp": Nicht alle Codepfade geben einen Wert zurück.
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Day10\Day10.cpp(544): warning C4715: "isDown": Nicht alle Codepfade geben einen Wert zurück.
+  Day10.vcxproj -> C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day10\Debug\Day10.exe

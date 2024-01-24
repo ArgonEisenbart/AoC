@@ -1,0 +1,5 @@
+﻿  Day06.cpp
+C:\Users\User\Desktop\Advent of Code\2023\Day06\Day06.cpp(26,19): warning C4101: 't2': unreferenced local variable
+C:\Users\User\Desktop\Advent of Code\2023\Day06\Day06.cpp(26,23): warning C4101: 'chargeTime': unreferenced local variable
+C:\Users\User\Desktop\Advent of Code\2023\Day06\Day06.cpp(26,15): warning C4101: 't1': unreferenced local variable
+  Day06.vcxproj -> C:\Users\User\Desktop\Advent of Code\2023\Day06\x64\Debug\Day06.exe

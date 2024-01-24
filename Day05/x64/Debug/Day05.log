@@ -1,0 +1,3 @@
+﻿  Day05.cpp
+C:\Users\User\Desktop\Advent of Code\2023\Day05\Day05.cpp(150,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Day05.vcxproj -> C:\Users\User\Desktop\Advent of Code\2023\Day05\x64\Debug\Day05.exe

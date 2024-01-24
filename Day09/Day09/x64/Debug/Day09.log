@@ -1,0 +1,6 @@
+﻿  Day09.cpp
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day09\Day09\Day09.cpp(51,24): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day09\Day09\Day09.cpp(56,24): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day09\Day09\Day09.cpp(67,28): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day09\Day09\Day09.cpp(83,52): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  Day09.vcxproj -> C:\Users\alexk\OneDrive\Desktop\Advent of Code\2023\Day09\x64\Debug\Day09.exe

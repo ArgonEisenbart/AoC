@@ -1,0 +1,3 @@
+﻿  Day02.cpp
+C:\Users\User\Desktop\Advent of Code\2023\Day02\Day02.cpp(79,30): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+  Day02.vcxproj -> C:\Users\User\Desktop\Advent of Code\2023\Day02\x64\Debug\Day02.exe
